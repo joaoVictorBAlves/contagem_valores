@@ -11,17 +11,21 @@ Este é um aplicativo simples para ver quantas vezes um determinado número foi 
 ## **Como Executar**
 
 ### **Back-end**
-1. Instale os requisitos:
+1. Clone o projeto:
+   ```bash
+   git clone https://github.com/joaoVictorBAlves/contagem_valores
+   ```
+2. Instale os requisitos:
    ```bash
    pip install -r requirements.txt
    ```
-2. Configure o ambiente:
+3. Configure o ambiente:
    - Certifique-se de que o banco de dados está configurado (SQLite ou outro).
    - Migre o banco:
      ```bash
      python manage.py migrate
      ```
-3. Inicie o servidor:
+4. Inicie o servidor:
    ```bash
    python manage.py runserver
    ```
@@ -50,6 +54,3 @@ O servidor fornece um endpoint principal para registrar e contar os valores subm
         "error": "Mensagem de erro descritiva."
     }
     ```
-
----
-
