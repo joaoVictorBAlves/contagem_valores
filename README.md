@@ -30,6 +30,8 @@ Este é um aplicativo simples para ver quantas vezes um determinado número foi 
    python manage.py runserver
    ```
 
+Acesse pelo seu navegador em: http://127.0.0.1:8000/
+
 ## **Back-end**
 O servidor fornece um endpoint principal para registrar e contar os valores submetidos. A API foi desenvolvida em um framework como **Django** ou **Flask**.
 
